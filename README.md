@@ -19,7 +19,7 @@ For deployment on hardware without internet access,
  * Copy the `standalone` folder from `.next` folder.
  * Copy the `static` folder from `.next` into `standalone`.
  * Copy the `server.js`, `package.json` & `next-config.js` from root folder into `standalone` folder.
- * Create another folder with `pacakge.json` containing only `express`, `next`, `socket.io` & `socket.io-client` & run the command `npm i`.
+ * Create another folder with `package.json` containing only `express`, `next`, `socket.io` & `socket.io-client` & run the command `npm i`.
  * Copy the `node_modules` folder & move to `standalone` folder.
  * Run the command `tar -czvf standalone.tar.gz` to compress the folder.
  * Copy to server for deployment.
