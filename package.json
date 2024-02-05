@@ -1,17 +1,15 @@
 {
   "name": "phyapp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 3001",
     "lint": "next lint",
-    "node": "node server.js",
-    "serve": "node_modules/next/dist/bin/next start -p 3001"
+    "standalone": "next build && cd .next/standalone && cp -r ../static .next/. && cp -r ../../public . && node ./server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",

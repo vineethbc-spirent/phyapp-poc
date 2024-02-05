@@ -1,4 +1,3 @@
-import PollingServerComponent from '@/components/PollingComponent';
 import SocketComponent from '@/components/SocketComponent';
 import React from 'react'
 
@@ -7,7 +6,6 @@ const ServerComponent = async () => {
     <main className="flex min-h-screen flex-col items-center p-24">
         <h3>Server Component</h3>
         <div>
-          {/* <PollingServerComponent /> */}
           <SocketComponent />
         </div>
     </main>
